@@ -17,7 +17,7 @@ int main(){
     len = strlen(s);
 
     // 각 문자의 첫 등장 위치 기록
-    for (int i = 0; i < len; i++) {
+    for (int i = 0; i < len; i++) { 
         num = s[i] - 'a';
         if (alphabet[num] == -1) {
             alphabet[num] = i;
